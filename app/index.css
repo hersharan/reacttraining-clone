@@ -8,6 +8,10 @@ body{
 	width: 100%;
 }
 
+li{
+	text-decoration: none;
+	list-style-type: none;
+}
 ul{
 	padding: 0px;
 }
@@ -19,4 +23,22 @@ ul{
 	margin: 10px;
 	list-style-type: none;
 	cursor: pointer;
+}
+
+.popular-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.popular-item{
+	margin:20px;
+	text-align: center;
+}
+.space-align-items{
+	margin-bottom: 7px;
+}
+
+.avatar{
+	width:150px;
+	border-radius: 50%;
 }
