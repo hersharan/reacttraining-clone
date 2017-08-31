@@ -74,7 +74,6 @@ class Popular extends React.Component {
         this.setState({
           repos: response.items
         });
-        console.log(this.state.repos);
       }.bind(this)
     );
   }
